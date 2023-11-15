@@ -4,20 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <title>Flexbox Mania</title>
   </head>
   <body>
     <header class="header">
       <h2 class="header-text">Zocom</h2>
-      <nav class="nav"></nav>
+      <nav class="nav">
+        <ul>
+          <li><a class="header__nav-a" href="#">Home</a></li>
+          <li><a class="header__nav-a" href="#">About</a></li>
+          <li><a class="header__nav-a" href="#">Services</a></li>
+          <li><a class="header__nav-a" href="#">Contact<a></li>
+        </ul>
+      </nav>
     </header>
     <main class="main">
       <section class="section__hero"></section>
       <section class="section__cards">
-        <div class="wrapper__cards-1">
+        <div class="card-container1">
           <article class="card">
-            <div class="card__img-bg">
-              <img class="card__img" src="" alt="" />
+            <div class="card__imgBg">
+              <img
+                class="card__img"
+                src="/img/card-imgs/image-outline 1.svg"
+                alt=""
+              />
+            </div>
+            <h2 class="card__title">card title</h2>
+            <p class="card__description">
+              I'm baby vexillologist normcore wayfarers, swag ramps humblebrag
+              selvage butcher four dollar toast tousled four loko photo booth.
+              DIY twee polaroid hella slow-carb art party deep v affogato
+              chambray taxidermy chillwave venmo small batch.
+            </p>
+          </article>
+          
+          <article class="card card--small">
+            <div class="card__imgBg">
+              <img
+                class="card__img"
+                src="/img/card-imgs/image-outline 1.svg"
+                alt=""
+              />
             </div>
             <h2 class="card__title">card title</h2>
             <p class="card__description">
@@ -29,9 +60,33 @@
           </article>
         </div>
 
-        <div class="wrapper__cards-2"></div>
+        <div class="card-container2">
+          
+        </div>
       </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <section class="footer-links">
+        <nav>
+            <h2>Nav</h2>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    <article>
+        <h2>About us</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia placeat saepe similique incidunt quaerat, culpa, facilis alias quis a quae, recusandae reprehenderit eum corporis accusantium porro voluptas sit quo numquam!</p>
+    </article>
+    <article class="Social-media">
+        <h2>Social media</h2>
+        <section class="icons">
+            <img src="Assets/logo-facebook.svg" alt="">
+            <img src="Assets/logo-instagram.svg" alt="">
+            <img src="Assets/logo-twitter.svg" alt="">
+        </section>
+    </article>    
+</section>
+    </footer>
   </body>
 </html>
