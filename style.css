@@ -128,3 +128,8 @@ h2 {
 .card__description {
   margin-bottom: 18px;
 }
+
+.footer {
+  background-color: rgb(55, 55, 55);
+}
+
