@@ -168,6 +168,6 @@ h2 {
 }
 .footericons {
   width: 50px;
-  background-color: white;
+  filter: brightness(200%);
 }
 
