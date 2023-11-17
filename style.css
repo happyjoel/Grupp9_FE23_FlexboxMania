@@ -13,6 +13,7 @@ header {
   align-items: center;
 }
 
+
 .header__nav {  
   display: flex;
   align-items: center;
@@ -124,6 +125,7 @@ h2 {
 }
 
 .card__title {
+  
 }
 
 .card__description {
