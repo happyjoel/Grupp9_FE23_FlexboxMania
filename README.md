@@ -2,9 +2,6 @@
 
 En webbplats byggd med HTML5 & CSS3, fokus ligger i att lösa designen med flexbox.
 
-UI
-Skiss hittar du [här]https://www.figma.com/file/zy3VW5pAiizLkBRnhtiuC3/JS-%2F-Solaris?type=design&mode=design&t=PjbrROQIRGIrPfsO-0).
-
 Betygskriterier
 
 Godkänt
