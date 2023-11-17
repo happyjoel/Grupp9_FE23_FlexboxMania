@@ -173,9 +173,17 @@ h2 {
 
   header {
     display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
   }
 
   .header__nav {
     display: none;
+  }
+
+  header:before { 
+    content: "\2630";
+    font-size: 3rem;
+    margin-right: 10px;
   }
 }
