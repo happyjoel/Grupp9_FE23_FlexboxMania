@@ -30,6 +30,7 @@ header {
   color: black;
   font-size: 1.6rem;
   height: 100px;
+  margin-right: 30px;
 }
 
 .header__nav-a:hover {
@@ -136,12 +137,17 @@ h2 {
   display: flex;
   justify-content: space-around;
   color: white;
+  align-items: center;
 }
 
 .wrapper {
   color: white;
+  height: 156px;
 }
 
+.social-media {
+  height: 156px;
+}
 .footerlinks {
  display: flex;
  flex-direction: column;
