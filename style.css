@@ -133,4 +133,18 @@ h2 {
   background-color: rgb(55, 55, 55);
 }
 
+.wrapper {
+  color: white;
+}
+.footerlinks {
+ display: flex;
+ flex-direction: column;
+ gap: 3rem;
+ margin: 0 auto;
+ text-decoration: none;
+}
+
+.footericons {
+  width: 50px;
+}
 
