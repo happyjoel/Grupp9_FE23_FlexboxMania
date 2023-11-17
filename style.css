@@ -186,4 +186,8 @@ h2 {
     font-size: 3rem;
     margin-right: 10px;
   }
+
+  .wrapper {
+    display: none;
+  }
 }
