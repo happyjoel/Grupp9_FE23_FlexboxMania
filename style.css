@@ -148,6 +148,10 @@ h2 {
 .social-media {
   height: 156px;
 }
+
+.footertitle {
+  margin-bottom: 2.2rem;
+}
 .footerlinks {
   display: flex;
   flex-direction: column;
