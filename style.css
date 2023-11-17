@@ -14,7 +14,7 @@ header {
 }
 
 
-.header__nav {  
+.header__nav {
   display: flex;
   align-items: center;
 }
@@ -37,7 +37,6 @@ header {
 .header__nav-a:hover {
   border-bottom: 1px solid black;
 }
-
 
 .header h2 {
   margin-right: auto;
@@ -67,6 +66,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 6.4rem;
 }
 
 .section__hero--h1 {
@@ -151,10 +151,10 @@ h2 {
   height: 156px;
 }
 .footerlinks {
- display: flex;
- flex-direction: column;
- gap: 3rem;
- margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 0 auto;
 }
 
 .footerlinks a {
@@ -168,34 +168,6 @@ h2 {
 }
 .footericons {
   width: 50px;
- 
-  fill: #ffff;
+  background-color: white;
 }
 
-@media (max-width: 375px) {
-
-  header {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row-reverse;
-  }
-
-  .header__nav {
-    display: none;
-  }
-
-  .header-text {
-    width: 100px;
-  }
-
-  .header:before {
-    content: "\2630";
-    font-size: 3rem;
-  }
-
-  .header.active {
-    width: 375px;
-  }
-
-  
-}
