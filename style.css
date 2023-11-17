@@ -190,4 +190,16 @@ h2 {
   .wrapper {
     display: none;
   }
-}
+
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .social-media {
+    margin-left: 5px;
+  }
+
+  .About {
+    margin-left: 5px;
+  }
