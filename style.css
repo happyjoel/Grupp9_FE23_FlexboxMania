@@ -131,20 +131,35 @@ h2 {
 
 .footer {
   background-color: rgb(55, 55, 55);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
 }
 
 .wrapper {
   color: white;
 }
+
+.About p {
+  width: 100px;
+}
+
+
 .footerlinks {
  display: flex;
  flex-direction: column;
  gap: 3rem;
  margin: 0 auto;
- text-decoration: none;
+}
+
+.footerlinks a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
 }
 
 .footericons {
   width: 50px;
+  background-color: white;
 }
-
