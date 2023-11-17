@@ -168,3 +168,7 @@ h2 {
   width: 50px;
   background-color: white;
 }
+
+@media (max-width: 375px) {
+  
+}
