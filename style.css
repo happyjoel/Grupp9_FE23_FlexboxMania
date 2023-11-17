@@ -187,6 +187,11 @@ h2 {
     margin-right: 10px;
   }
 
+  .section__hero--h1 {
+    width: 330px;
+    text-align: center;
+  }
+
   .wrapper {
     display: none;
   }
@@ -203,3 +208,5 @@ h2 {
   .About {
     margin-left: 5px;
   }
+
+}
