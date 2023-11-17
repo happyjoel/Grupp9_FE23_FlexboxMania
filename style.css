@@ -171,3 +171,16 @@ h2 {
   background-color: white;
 }
 
+@media (max-width: 375px) {
+
+  .header__nav {
+    display: none;
+  }
+
+  .header:before {
+    content: "\2630";
+    font-size: 2rem;
+  }
+
+  
+}
