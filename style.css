@@ -132,6 +132,7 @@ h2 {
 .footer {
   background-color: rgb(55, 55, 55);
   width: 100%;
+  height: 447px;
   display: flex;
   justify-content: space-around;
   color: white;
@@ -140,11 +141,6 @@ h2 {
 .wrapper {
   color: white;
 }
-
-.About p {
-  width: 100px;
-}
-
 
 .footerlinks {
  display: flex;
@@ -158,7 +154,10 @@ h2 {
   color: white;
   font-size: 1.5rem;
 }
-
+.About {
+  height: 156px;
+  width: 312px;
+}
 .footericons {
   width: 50px;
   background-color: white;
