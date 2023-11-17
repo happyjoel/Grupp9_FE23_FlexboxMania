@@ -170,5 +170,12 @@ h2 {
 }
 
 @media (max-width: 375px) {
-  
+
+  header {
+    display: flex;
+  }
+
+  .header__nav {
+    display: none;
+  }
 }
