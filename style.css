@@ -168,18 +168,33 @@ h2 {
 }
 .footericons {
   width: 50px;
-  background-color: white;
+ 
+  fill: #ffff;
 }
 
 @media (max-width: 375px) {
+
+  header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+  }
 
   .header__nav {
     display: none;
   }
 
+  .header-text {
+    width: 100px;
+  }
+
   .header:before {
     content: "\2630";
-    font-size: 2rem;
+    font-size: 3rem;
+  }
+
+  .header.active {
+    width: 375px;
   }
 
   

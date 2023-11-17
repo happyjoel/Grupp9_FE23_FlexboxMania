@@ -2,9 +2,12 @@
 
 En webbplats byggd med HTML5 & CSS3, fokus ligger i att lösa designen med flexbox.
 
+<<<<<<< HEAD
 UI
 
 
+=======
+>>>>>>> 9b2d7b8ec05a9cf5c6818846260d4b80a9caeafa
 Betygskriterier
 
 Godkänt
