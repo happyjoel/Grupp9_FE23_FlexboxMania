@@ -13,7 +13,7 @@ header {
   align-items: center;
 }
 
-.header__nav {  
+.header__nav {
   display: flex;
   align-items: center;
 }
@@ -36,7 +36,6 @@ header {
 .header__nav-a:hover {
   border-bottom: 1px solid black;
 }
-
 
 .header h2 {
   margin-right: auto;
@@ -66,6 +65,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 6.4rem;
 }
 
 .section__hero--h1 {
@@ -149,10 +149,10 @@ h2 {
   height: 156px;
 }
 .footerlinks {
- display: flex;
- flex-direction: column;
- gap: 3rem;
- margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 0 auto;
 }
 
 .footerlinks a {
@@ -168,4 +168,3 @@ h2 {
   width: 50px;
   background-color: white;
 }
-
