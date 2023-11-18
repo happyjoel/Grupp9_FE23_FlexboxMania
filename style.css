@@ -33,7 +33,8 @@ header {
   margin-right: 30px;
 }
 
-.header__nav-a:hover {
+.header__nav-a:hover,
+.header__nav-a:active {
   border-bottom: 1px solid black;
 }
 
@@ -59,7 +60,7 @@ h2 {
 
 .section__hero {
   width: 100%;
-  height: 512px;
+  height: 52rem;
   background: #333333;
   display: flex;
   flex-direction: column;
@@ -174,7 +175,6 @@ h2 {
 }
 
 @media (max-width: 375px) {
-
   header {
     display: flex;
     justify-content: space-between;
@@ -185,7 +185,7 @@ h2 {
     display: none;
   }
 
-  header:before { 
+  header:before {
     content: "\2630";
     font-size: 3rem;
     margin-right: 10px;
@@ -198,6 +198,16 @@ h2 {
 
   .wrapper {
     display: none;
+  }
+
+  .card-container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 3.4rem;
+  }
+
+  .card--small {
+    width: 100%;
   }
 
   .footer {
