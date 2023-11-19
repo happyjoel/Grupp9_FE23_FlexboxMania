@@ -234,7 +234,7 @@ h2 {
   }
 }
 
-.middle{
+.quote{
     width: 100%;
     height: 30rem;
     background: #ffffff;
@@ -254,7 +254,7 @@ h2 {
   display: flex;
 
 }
-.quote{
+.quote__text{
   color: #333333;
   display: flex;
   font-size: 2.5rem;
