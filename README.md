@@ -1,4 +1,4 @@
-# JoelVictoriaJensErik_FE23_FlexboxMania
+# Grupp9_FE23_FlexboxMania
 
 GRUPP 9
 Joel Strömgren
